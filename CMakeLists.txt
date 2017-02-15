@@ -1,17 +1,10 @@
 cmake_minimum_required (VERSION 2.8.11)
-project (example CXX)
+project (HU CXX)
 
 
 # Set the location of kvasir and hwlib on your PC
-# You can download or clone the latest versions of these at
-# https://github.com/wovo/hwlib
-# https://github.com/kvasir-io/toolchain
-set(hwlib <your-path-to-hwlib>/hwlib)
-set(toolchain <your-path-to-the-toolchain>/kvasir_toolchain)
-
-include_directories(
-	${kvasir}/Lib
-)
+set(hwlib deps/hwlib)
+set(toolchain deps/kvasir/toolchain)
 
 include_directories(
 	${hwlib}/include

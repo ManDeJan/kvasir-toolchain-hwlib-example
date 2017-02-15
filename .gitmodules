@@ -1,0 +1,6 @@
+[submodule "deps/kvasir/toolchain"]
+	path = deps/kvasir/toolchain
+	url = https://github.com/kvasir-io/toolchain.git
+[submodule "deps/hwlib"]
+	path = deps/hwlib
+	url = https://github.com/wovo/hwlib.git
