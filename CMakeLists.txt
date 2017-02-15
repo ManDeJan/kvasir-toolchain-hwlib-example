@@ -32,8 +32,7 @@ set(warnings
 
 set(cxxflags
     "-std=c++14"
-    "-Og"
-    "-g3"
+    "-Os"
     ${warnings})
 
 string(REGEX REPLACE ";" " " cxxflags "${cxxflags}")
