@@ -32,8 +32,9 @@ set(warnings
 
 set(cxxflags
     "-std=c++14"
-    "-ffunction-sections"
     "-Os"
+    "-ffunction-sections"
+    "-fdata-sections"
     ${warnings})
 
 string(REGEX REPLACE ";" " " cxxflags "${cxxflags}")
