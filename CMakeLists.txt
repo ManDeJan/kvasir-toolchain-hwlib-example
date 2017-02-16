@@ -32,6 +32,7 @@ set(warnings
 
 set(cxxflags
     "-std=c++14"
+    "-ffunction-sections"
     "-Os"
     ${warnings})
 
